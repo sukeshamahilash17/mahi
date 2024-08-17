@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/sukeshamahilash17/mahi/static/css/main.c30491b0.css",
+    "main.js": "/sukeshamahilash17/mahi/static/js/main.9d9373dd.js",
+    "static/media/uhrgebigiet.jpg": "/sukeshamahilash17/mahi/static/media/uhrgebigiet.f9b1a67407cc5bc37dae.jpg",
+    "static/media/titan.jpg": "/sukeshamahilash17/mahi/static/media/titan.9a62e9a14235b22640e2.jpg",
+    "static/media/joeynguy.jpg": "/sukeshamahilash17/mahi/static/media/joeynguy.6c2db874aa7cb53e438c.jpg",
+    "static/media/notes.jpg": "/sukeshamahilash17/mahi/static/media/notes.e6924cc82ade20d83c4d.jpg",
+    "static/media/ferarcosn.jpg": "/sukeshamahilash17/mahi/static/media/ferarcosn.87752fd1c031fb5d0ca7.jpg",
+    "static/media/fa-solid-900.ttf": "/sukeshamahilash17/mahi/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/fa-brands-400.ttf": "/sukeshamahilash17/mahi/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/fa-solid-900.woff2": "/sukeshamahilash17/mahi/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/fa-brands-400.woff2": "/sukeshamahilash17/mahi/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/fa-regular-400.ttf": "/sukeshamahilash17/mahi/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/fa-regular-400.woff2": "/sukeshamahilash17/mahi/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/logo.jpeg": "/sukeshamahilash17/mahi/static/media/logo.af6957aaa3e223a7bcf8.jpeg",
+    "static/media/fa-v4compatibility.ttf": "/sukeshamahilash17/mahi/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/sukeshamahilash17/mahi/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "index.html": "/sukeshamahilash17/mahi/index.html",
+    "main.c30491b0.css.map": "/sukeshamahilash17/mahi/static/css/main.c30491b0.css.map",
+    "main.9d9373dd.js.map": "/sukeshamahilash17/mahi/static/js/main.9d9373dd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c30491b0.css",
+    "static/js/main.9d9373dd.js"
+  ]
+}

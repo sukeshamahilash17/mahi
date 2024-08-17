@@ -1,0 +1,30 @@
+/* src/components/about.css */
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+}
+
+.about-section {
+    margin-bottom: 30px;
+}
+
+.about-heading {
+    font-size: 2rem;
+    color: #3498db;
+    margin-bottom: 15px;
+}
+
+.about-text {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.about-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}

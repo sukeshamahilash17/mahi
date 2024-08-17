@@ -1,0 +1,158 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa; /* Set a light background color for the body */
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #12d8db; /* Change navbar background color */
+  padding: 1em;
+  animation: slideIn 1s ease-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add box-shadow for depth */
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  margin: 0 1em;
+}
+
+.nav-link {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff; /* Change navbar text color */
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff; /* Change navbar underline color */
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.nav-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.nav-link:hover {
+  color: #ffd600; /* Change navbar text color on hover */
+}
+
+/* Button styles */
+.btn {
+  display: inline-block;
+  padding: 0.5em 1em;
+  background-color: #ff5722; /* Change button background color */
+  color: #fff;
+  border: none;
+  border-radius: 0.25em;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  animation: fadeIn 1.5s ease-in-out;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box-shadow for depth */
+}
+
+.btn:hover {
+  transform: scale(1.05); /* Adjust hover scale effect */
+}
+
+/* Search button specific style */
+.btn-outline-success {
+  background-color: #4caf50; /* Change to the desired background color */
+  color: #212529; /* Change to the desired text color */
+  border-color: #4caf50; /* Change to match the background color for consistency */
+}
+
+.btn-outline-success:hover {
+  background-color: #388e3c; /* Change to the desired hover background color */
+  color: #fff; /* Change to the desired hover text color */
+}
+
+/* Cart button specific style */
+.btn-outline-success.ms-2 {
+  background-color: #e91e63; /* Change to the desired background color */
+  color: #fff; /* Change to the desired text color */
+  border-color: #e91e63; /* Change to match the background color for consistency */
+}
+
+.btn-outline-success.ms-2:hover {
+  background-color: #ad1457; /* Change to the desired hover background color */
+  color: #fff; /* Change to the desired hover text color */
+}
+
+/* Adjust logo size */
+.navbar-logo {
+  height: 40px; /* Adjust the height as needed */
+  width: auto; /* Ensures the width adjusts proportionally */
+}
+.dropdown-menu {
+  display: none; /* Hide the dropdown menu by default */
+  position: absolute;
+  top: 100%; /* Position below the parent */
+  left: 0;
+  min-width: 160px; /* Adjust minimum width as needed */
+  background-color: #f8f9fa; /* Light gray background */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+  z-index: 1;
+  animation: fadeIn 0.3s ease-in-out forwards; /* Apply fade-in animation */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.dropdown-item {
+  padding: 10px 15px; /* Padding for dropdown items */
+  text-decoration: none;
+  display: block;
+  color: #333333; /* Text color */
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.dropdown-item:hover {
+  background-color: #e9ecef; /* Hover background color */
+  color: #007bff; /* Hover text color */
+}
+
+.dropdown-divider {
+  height: 1px; /* Divider height */
+  margin: 5px 0; /* Margin above and below divider */
+  background-color: #cfd8dc; /* Divider color */
+  border: none;
+}

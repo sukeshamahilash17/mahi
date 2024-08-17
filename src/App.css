@@ -1,0 +1,49 @@
+/* App.css */
+.container {
+  padding: 20px;
+ 
+  
+}
+
+.card {
+  background-color: #e9f0e9; /* Light gray background */
+  border-radius: 8px; /* Rounded corners */
+  overflow: hidden; /* Ensure the border-radius applies correctly */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05) rotate(3deg);
+  box-shadow:  10px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  color: blue;
+}
+
+.btn-warning {
+  background-color: #ffcc00;
+  border: none;
+}
+
+.btn-warning:hover {
+  background-color: #e6b800;
+}
+
+h1, h2 {
+  text-decoration: underline;
+  color: ActiveBorder;
+}
+
+h2 {
+  margin-top: 40px;
+}
+/* App.css */
+body {
+  background-color: #72a2d2; /* Light gray background color */
+}
+
+.card {
+  margin-bottom: 20px; /* Maintain gap between cards */
+}
